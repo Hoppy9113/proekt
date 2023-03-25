@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #737373;
+    justify-content: center;
+}
+.logo{
+    background: #737373;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.graficlogo{
+    padding: 5px;
+    max-width: 100%;
+    box-sizing: border-box; 
+}
+nav{
+    margin: auto;
+    width: 800px;
+    height: 100px;
+}
+.topnav{
+    background-color:#737373;
+    font-size: 14px;
+    margin-top: 6px;;
+}
+.topnav a{
+    color: white;
+    text-align: center;
+    padding: 19px 9px;
+    font-size:20px;
+}
+.topnav a:hover{
+    border-bottom: 2px solid #737373;
+}
+.topnav .icon{
+    display: none;
+}
+.istoria{
+    padding: 30px 30px;
+    font-size: 16px;
+    color: white;
+    width: 67%;
+    height: 50%
+}
+.istoria1{
+    padding: 30px 30px;
+    font-size: 16px;
+    color: white;
+    width: 67%;
+    height: 50%
+}
+.istoria2{
+    padding: 30px 30px;
+    font-size: 16px;
+    color: white;
+    width: 67%;
+    height: 50%
+}
+.istoria3{
+    padding: 30px 30px;
+    font-size: 16px;
+    color: white;
+    width: 67%;
+    height: 50%
+}
+.istoria4{
+    padding: 30px 30px;
+    font-size: 16px;
+    color: white;
+    width: 67%;
+    height: 50%
+}
+.istoria5{
+    padding: 30px 30px;
+    font-size: 16px;
+    color: white;
+    width: 67%;
+    height: 50%
+    
+}
+.mw-100{
+    max-width: 100%;
+    margin-top: -45px;
+}
+.ceredina{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.center{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.text-center{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.zanoza{
+    color: white;
+    font-size: 26px;
+    display: flex;
+}
+.dod{
+    margin-left: 1300px;
+    color: white;
+    margin-right: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon{
+        float: right;
+        margin-top: -17px;
+        display: block;
+        color: #737373;
+    }
+    nav{
+        width: 100%;
+        height: 50px;
+    }
+    .topnav.responsive{
+        position: relative;
+    }
+    .topnav.responsive a.icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+
